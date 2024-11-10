@@ -1,0 +1,30 @@
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: gray;
+    max-width: 300px;
+    max-height: 20rem;
+    margin-left: 10%;
+    margin-bottom: 10%;
+
+}
+
+.fake_image{
+    background-color: black;
+    margin: 10% 10% 10%;
+    height: 10rem;
+}
+
+.dropdown_filters{
+    width: 5px;
+}
+
+.fake_image > img{
+   width: 15rem;
+}
+
+.filter_links{
+    display: flex;
+}

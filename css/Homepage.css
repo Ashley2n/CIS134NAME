@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.logo_image{
+    width: 1rem;
+    height: 1rem;
+}
+
+.search_icon{
+    width: 1rem;
+}
+
+/* 
+#Bonsailogo{
+    font-size: 120%;
+}
+#Bonsai_icon{
+    height: 2%;
+    width: 2%;
+}
+
+#searchimage{
+    height: 3.5%;
+    width: 3.5%;
+}
+
+#shoppingcart{
+    height: 2%;
+    width: 2%;
+} */
+
+
+.Body_title{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.shop-button{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+p.footer_tags{
+    margin: 0;
+;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    margin-left: 10%;
+    column-gap: 8rem;
+}
+
+@media screen and (max-width: 500px){
+    footer{
+        display: flex;
+        flex-grow: 10;
+        column-gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    .Body_title{
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+    .shop-button{
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+}

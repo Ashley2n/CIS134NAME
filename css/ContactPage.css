@@ -1,0 +1,19 @@
+form{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+
+
+p.footer_tags{
+    margin: 0;
+;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    margin-left: 10%;
+    column-gap: 8rem;
+}
